@@ -1,3 +1,20 @@
-a, h2{
-    color: azure !important; 
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: right;
 }
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.oscurecer-img{
+    filter: brightness(50%);
+  }
